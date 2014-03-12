@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Theme id="simple">
+	<GenTypes>
+		<GenType id="GenBusinessEbi" type="cn.javass.themes.simple.actions.GenBusinessEbiAction">
+			<Params>
+				<Param id="relativePath">business.ebi</Param>
+				<Param id="mbPathFile">business/Ebi.txt</Param>
+				<Param id="preGenFileName"></Param>
+				<Param id="afterGenFileName">Ebi.java</Param>
+			</Params>
+		</GenType>
+		<GenType id="GenBusinessEbo" type="cn.javass.themes.simple.actions.GenBusinessEboAction">
+			<Params>
+				<Param id="relativePath">business.ebo</Param>
+				<Param id="mbPathFile">business/Ebo.txt</Param>
+				<Param id="preGenFileName"></Param>
+				<Param id="afterGenFileName">Ebo.java</Param>
+			</Params>			
+		</GenType>
+		<GenType id="GenDaoDao" type="cn.javass.themes.simple.actions.GenDaoDaoAction">
+			<Params>
+				<Param id="relativePath">dao.dao</Param>
+				<Param id="mbPathFile">dao/DAO.txt</Param>
+				<Param id="preGenFileName"></Param>
+				<Param id="afterGenFileName">DAO.java</Param>
+			</Params>
+		</GenType>
+		<GenType id="GenVo" type="cn.javass.themes.simple.actions.GenVoAction">
+			<Params>
+				<Param id="relativePath">vo</Param>
+				<Param id="mbPathFile">vo/Model.txt</Param>
+				<Param id="preGenFileName"></Param>
+				<Param id="afterGenFileName">Model.java</Param>
+			</Params>
+		</GenType>
+		<GenType id="GenDaoImpl" type="cn.javass.themes.simple.actions.GenDaoImplAction">
+			<Params>
+				<Param id="relativePath">dao.impl</Param>
+				<Param id="mbPathFile">dao/H3Impl.txt</Param>
+				<Param id="preGenFileName"></Param>
+				<Param id="afterGenFileName">H3Impl.java</Param>
+			</Params>
+		</GenType>
+		<GenType id="GenHbmXml" type="cn.javass.themes.simple.actions.GenHbmXmlAction">
+			<Params>
+				<Param id="relativePath">vo</Param>
+				<Param id="mbPathFile">vo/Model.hbm.txt</Param>
+				<Param id="preGenFileName"></Param>
+				<Param id="afterGenFileName">Model.hbm.xml</Param>
+			</Params>
+		</GenType>
+		<GenType id="GenAddPage" type="cn.javass.themes.simple.actions.GenAddPageAction">
+			<Params>
+				<Param id="relativePath">pages</Param>
+				<Param id="mbPathFile">pages/add.txt</Param>
+				<Param id="preGenFileName"></Param>
+				<Param id="afterGenFileName">Add.jsp</Param>
+			</Params>
+		</GenType>
+		<GenType id="GenUpdatePage" type="cn.javass.themes.simple.actions.GenUpdatePageAction">
+			<Params>
+				<Param id="relativePath">pages</Param>
+				<Param id="mbPathFile">pages/update.txt</Param>
+				<Param id="preGenFileName"></Param>
+				<Param id="afterGenFileName">Update.jsp</Param>
+			</Params>
+		</GenType>
+		<GenType id="GenDeletePage" type="cn.javass.themes.simple.actions.GenDeletePageAction">
+			<Params>
+				<Param id="relativePath">pages</Param>
+				<Param id="mbPathFile">pages/delete.txt</Param>
+				<Param id="preGenFileName"></Param>
+				<Param id="afterGenFileName">Delete.jsp</Param>
+			</Params>
+		</GenType>
+		<GenType id="GenQueryPage" type="cn.javass.themes.simple.actions.GenQueryPageAction">
+			<Params>
+				<Param id="relativePath">pages</Param>
+				<Param id="mbPathFile">pages/query.txt</Param>
+				<Param id="preGenFileName"></Param>
+				<Param id="afterGenFileName">Query.jsp</Param>
+			</Params>
+		</GenType>
+		<GenType id="GenListPage" type="cn.javass.themes.simple.actions.GenListPageAction">
+			<Params>
+				<Param id="relativePath">pages</Param>
+				<Param id="mbPathFile">pages/list.txt</Param>
+				<Param id="preGenFileName"></Param>
+				<Param id="afterGenFileName">List.jsp</Param>
+			</Params>
+		</GenType>
+		<GenType id="GenQueryModel" type="cn.javass.themes.simple.actions.GenQueryModelAction">
+			<Params>
+				<Param id="relativePath">vo</Param>
+				<Param id="mbPathFile">vo/QueryModel.txt</Param>
+				<Param id="preGenFileName"></Param>
+				<Param id="afterGenFileName">QueryModel.java</Param>
+			</Params>
+		</GenType>
+		<GenType id="GenSpring2Xml" type="cn.javass.themes.simple.actions.GenSpring2XmlAction">
+			<Params>
+				<Param id="relativePath">xmls</Param>
+				<Param id="mbPathFile">xmls/applicationContext.txt</Param>
+				<Param id="preGenFileName">applicationContext-</Param>
+				<Param id="afterGenFileName">.xml</Param>
+			</Params>
+		</GenType>
+		<GenType id="GenStruts2Xml" type="cn.javass.themes.simple.actions.GenStruts2XmlAction">
+			<Params>
+				<Param id="relativePath">xmls</Param>
+				<Param id="mbPathFile">xmls/struts.txt</Param>
+				<Param id="preGenFileName">struts-</Param>
+				<Param id="afterGenFileName">.xml</Param>
+			</Params>
+		</GenType>
+		<GenType id="GenWebAction" type="cn.javass.themes.simple.actions.GenWebActionAction">
+			<Params>
+				<Param id="relativePath">web.action</Param>
+				<Param id="mbPathFile">web/Action.txt</Param>
+				<Param id="preGenFileName"></Param>
+				<Param id="afterGenFileName">Action.java</Param>
+			</Params>
+		</GenType>
+		<GenType id="GenWebModel" type="cn.javass.themes.simple.actions.GenWebModelAction">
+			<Params>
+				<Param id="relativePath">web.vo</Param>
+				<Param id="mbPathFile">web/WebModel.txt</Param>
+				<Param id="preGenFileName"></Param>
+				<Param id="afterGenFileName">WebModel.java</Param>
+			</Params>
+		</GenType>
+	</GenTypes>
+	<GenOutTypes>
+		<GenOutType id="Console" type="cn.javass.xgen.output.types.OutputToConsole"></GenOutType>
+		<GenOutType id="File" type="cn.javass.xgen.output.types.OutputToFile"></GenOutType>
+		<GenOutType id="My" type="cn.javass.themes.simple.outputtypes.MyOutput"></GenOutType>
+	</GenOutTypes>
+	<Providers>
+		<Provider id="XmlGenConf" type="com.xgen.config.implementors.xmlimpl.GenConfXmlImpl"></Provider>
+		<Provider id="XmlModuleGenConf" type="com.xgen.config.implementors.xmlimpl.ModuleGenConfXmlImpl"></Provider>
+		<Provider id="XmlThemeConf" type="com.xgen.config.implementors.xmlimpl.ThemeXmlImpl"></Provider>
+	</Providers>	
+</Theme>

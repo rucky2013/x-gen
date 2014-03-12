@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GenConf>
+	<NeedGens>
+		<NeedGen id="UserGenConf" provider="XmlModuleGenConf" themeId="simple">
+			<Params>
+				<Param id="fileName">UserGenConf.xml</Param>
+			</Params>	
+		</NeedGen>
+		<!--
+		<NeedGen id="UserGenConf1" provider="XmlModuleGenConf" themeId="simple">
+			<params>
+				<param id="fileName">UserGenConf1.xml</param>
+			</params>	
+		</NeedGen>
+		<NeedGen id="UserGenConf2" provider="XmlModuleGenConf" themeId="simple">
+			<params>
+				<param id="fileName">UserGenConf2.xml</param>
+			</params>	
+		</NeedGen>
+		<NeedGen id="UserGenConf3" provider="XmlModuleGenConf" themeId="simple">
+			<params>
+				<param id="fileName">UserGenConf3.xml</param>
+			</params>	
+		</NeedGen>
+		<NeedGen id="UserGenConf4" provider="XmlModuleGenConf" themeId="simple">
+			<params>
+				<param id="fileName">UserGenConf4.xml</param>
+			</params>	
+		</NeedGen>
+		<NeedGen id="UserGenConf5" provider="XmlModuleGenConf" themeId="simple">
+			<params>
+				<param id="fileName">UserGenConf5.xml</param>
+			</params>	
+		</NeedGen>
+		<NeedGen id="UserGenConf6" provider="XmlModuleGenConf" themeId="simple">
+			<params>
+				<param id="fileName">UserGenConf6.xml</param>
+			</params>	
+		</NeedGen>
+		<NeedGen id="UserGenConf7" provider="XmlModuleGenConf" themeId="simple">
+			<params>
+				<param id="fileName">UserGenConf7.xml</param>
+			</params>	
+		</NeedGen>
+		<NeedGen id="UserGenConf8" provider="XmlModuleGenConf" themeId="simple">
+			<params>
+				<param id="fileName">UserGenConf8.xml</param>
+			</params>	
+		</NeedGen>
+		<NeedGen id="UserGenConf9" provider="XmlModuleGenConf" themeId="simple">
+			<params>
+				<param id="fileName">UserGenConf9.xml</param>
+			</params>	
+		</NeedGen>
+		<NeedGen id="UserGenConf10" provider="XmlModuleGenConf" themeId="simple">
+			<params>
+				<param id="fileName">UserGenConf10.xml</param>
+			</params>	
+		</NeedGen>
+		<NeedGen id="UserGenConf11" provider="XmlModuleGenConf" themeId="simple">
+			<params>
+				<param id="fileName">UserGenConf11.xml</param>
+			</params>	
+		</NeedGen>
+		<NeedGen id="UserGenConf12" provider="XmlModuleGenConf" themeId="simple">
+			<params>
+				<param id="fileName">UserGenConf12.xml</param>
+			</params>	
+		</NeedGen>
+		<NeedGen id="UserGenConf13" provider="XmlModuleGenConf" themeId="simple">
+			<params>
+				<param id="fileName">UserGenConf13.xml</param>
+			</params>	
+		</NeedGen>
+		<NeedGen id="UserGenConf14" provider="XmlModuleGenConf" themeId="simple">
+			<params>
+				<param id="fileName">UserGenConf14.xml</param>
+			</params>	
+		</NeedGen>
+		<NeedGen id="UserGenConf15" provider="XmlModuleGenConf" themeId="simple">
+			<params>
+				<param id="fileName">UserGenConf15.xml</param>
+			</params>	
+		</NeedGen>
+		<NeedGen id="UserGenConf16" provider="XmlModuleGenConf" themeId="simple">
+			<params>
+				<param id="fileName">UserGenConf16.xml</param>
+			</params>	
+		</NeedGen>
+		<NeedGen id="UserGenConf17" provider="XmlModuleGenConf" themeId="simple">
+			<params>
+				<param id="fileName">UserGenConf17.xml</param>
+			</params>	
+		</NeedGen>
+		<NeedGen id="UserGenConf18" provider="XmlModuleGenConf" themeId="simple">
+			<params>
+				<param id="fileName">UserGenConf18.xml</param>
+			</params>	
+		</NeedGen>
+		<NeedGen id="UserGenConf19" provider="XmlModuleGenConf" themeId="simple">
+			<params>
+				<param id="fileName">UserGenConf19.xml</param>
+			</params>	
+		</NeedGen>
+		<NeedGen id="UserGenConf20" provider="XmlModuleGenConf" themeId="simple">
+			<params>
+				<param id="fileName">UserGenConf20.xml</param>
+			</params>	
+		</NeedGen>-->
+	</NeedGens>
+	<Themes>
+		<Theme id="simple">com/xgen/themes/simple</Theme>
+	</Themes>
+	<Constants>
+		<Constant id="prePackage">cn.javass</Constant>
+		<Constant id="projectName">test</Constant>
+	</Constants>
+</GenConf>

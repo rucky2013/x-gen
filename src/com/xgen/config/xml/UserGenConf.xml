@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ModuleGenConf id="UserConf">
+	<NeedGenTypes>
+		<NeedGenType id="GenBusinessEbi">
+			<NeedGenOutType id="Console"></NeedGenOutType>
+			<NeedGenOutType id="File"></NeedGenOutType>
+		</NeedGenType>
+		<NeedGenType id="GenVo">
+			<NeedGenOutType id="Console"></NeedGenOutType>
+			<NeedGenOutType id="File"></NeedGenOutType>
+		</NeedGenType>
+		<!-- 
+		<NeedGenType id="GenBusinessEbo">
+			<NeedGenOutType id="File"></NeedGenOutType>
+		</NeedGenType>
+		
+		<NeedGenType id="GenDaoDao">
+			<NeedGenOutType id="File"></NeedGenOutType>
+		</NeedGenType>
+		<NeedGenType id="GenDaoImpl">
+			<NeedGenOutType id="File"></NeedGenOutType>
+		</NeedGenType>
+		<NeedGenType id="GenHbmXml">
+			<NeedGenOutType id="File"></NeedGenOutType>
+		</NeedGenType>
+		<NeedGenType id="GenAddPage">
+			<NeedGenOutType id="File"></NeedGenOutType>
+		</NeedGenType>
+		<NeedGenType id="GenUpdatePage">
+			<NeedGenOutType id="File"></NeedGenOutType>
+		</NeedGenType>
+		<NeedGenType id="GenDeletePage">
+			<NeedGenOutType id="File"></NeedGenOutType>
+		</NeedGenType>
+		<NeedGenType id="GenQueryPage">
+			<NeedGenOutType id="File"></NeedGenOutType>
+		</NeedGenType>
+		<NeedGenType id="GenListPage">
+			<NeedGenOutType id="File"></NeedGenOutType>
+		</NeedGenType>
+		<NeedGenType id="GenQueryModel">
+			<NeedGenOutType id="File"></NeedGenOutType>
+		</NeedGenType>
+		<NeedGenType id="GenSpring2Xml">
+			<NeedGenOutType id="File"></NeedGenOutType>
+		</NeedGenType>
+		<NeedGenType id="GenStruts2Xml">
+			<NeedGenOutType id="File"></NeedGenOutType>
+		</NeedGenType>
+		<NeedGenType id="GenWebAction">
+			<NeedGenOutType id="File"></NeedGenOutType>
+		</NeedGenType>
+		<NeedGenType id="GenWebModel">
+			<NeedGenOutType id="File"></NeedGenOutType>
+		</NeedGenType>
+ -->
+	</NeedGenTypes>
+	<ExtendConfs>
+		<ExtendConf id="codeOutPath" isSingle="true">build</ExtendConf>
+		<ExtendConf id="moduleName" isSingle="true">test</ExtendConf>
+		<ExtendConf id="moduleNameSuperCase" isSingle="true">Test</ExtendConf>
+		<ExtendConf id="modulePackge" isSingle="true">${gm.getMapConstants().get("prePackage");}.${gm.getMapConstants().get("projectName");}.test</ExtendConf>
+		<ExtendConf id="action_modelName" isSingle="true">tm</ExtendConf>
+		<ExtendConf id="action_queryModelName" isSingle="true">tqm</ExtendConf>
+		<ExtendConf id="action_webModelName" isSingle="true">twm</ExtendConf>
+		<ExtendConf id="tblName" isSingle="true">tbl_user</ExtendConf>
+		<ExtendConf id="listViewNum" isSingle="true">${mapEcms.get("voFields").getValues().length;}</ExtendConf>
+		<ExtendConf id="pagesPath" isSingle="true">test</ExtendConf>
+		<ExtendConf id="mouduleName_CN" isSingle="true">用户管理</ExtendConf>
+		<ExtendConf id="colunName_CN" isSingle="false">用户编号,密码,姓名,工号,性别,电话,QQ,Email,地址,毕业院校,毕业时间,专业,生日,用户类型,用户文档,删除标记</ExtendConf>
+		<ExtendConf id="qmColunName_CN" isSingle="false">毕业时间2</ExtendConf>
+		<ExtendConf id="voFields" isSingle="false">userId,pwd,name,wokerNum,sex,tel,qq,email,address,fromUni,greaduateTime,speciality,Birthday,UserType,UserDocUuid,delFlag</ExtendConf>
+		<ExtendConf id="voFieldsTypes" isSingle="false">String,String,String,String,String,String,String,String,String,String,long,String,long,String,String,int</ExtendConf>
+		<ExtendConf id="queryConditions" isSingle="false">=,=,like,like,=,like,like,like,like,like,&gt;=,like,&gt;=,=,=,=</ExtendConf>
+		<ExtendConf id="qmVoFields" isSingle="false">greaduateTime</ExtendConf>
+		<ExtendConf id="qmVoFieldsTypes" isSingle="false">long</ExtendConf>
+		<ExtendConf id="qmQueryConditions" isSingle="false">&lt;=</ExtendConf>
+	</ExtendConfs>
+</ModuleGenConf>
